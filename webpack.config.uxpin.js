@@ -10,6 +10,9 @@ module.exports = {
   resolve: {
     modules: [__dirname, 'node_modules'],
     extensions: ['*', '.js', '.jsx'],
+    alias: {
+      grommet: path.resolve(__dirname, './src/js'),
+    },
   },
   devtool: 'source-map',
   module: {
