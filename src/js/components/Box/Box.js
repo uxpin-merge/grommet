@@ -114,3 +114,4 @@ class BoxImpl extends Component {
 Object.setPrototypeOf(BoxImpl.defaultProps, defaultProps);
 
 export const Box = wrapWithHocs(BoxImpl);
+export default Box;

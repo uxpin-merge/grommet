@@ -1,6 +1,6 @@
 import * as React from 'react';
 import FormField from '../FormField';
-import TextInput from '../../TextInput';
+import TextInput from '../../TextInput/TextInput';
 
 export default (
   <FormField label="Field label" uxpId="FormField0">

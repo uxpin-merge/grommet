@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Form from '../Form';
-import FormField from '../../FormField';
-import Button from '../../Button';
+import FormField from '../../FormField/FormField';
+import Button from '../../Button/Button';
 
 export default (
   <Form uxpId="formContainer0">
